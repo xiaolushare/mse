@@ -1,11 +1,11 @@
 # mse
 Python module to interface with Cisco MSE
 ##Functions
-###getClient(string server, string user, string password, string client)
+###WirelessClientLocation getClient(string server, string user, string password, string client)
  *Returns a single WirelessClientLocation based on the search 'client'.*
-###getClients(string server, string user, string password)
+###[WirelessClientLocation] getClients(string server, string user, string password)
  *Returns a list of WirelessClientLocation from list of server.*
-###getAllClients(string user, string password)
+###[WirelessClientLocation] getAllClients(string user, string password)
  *Returns a list of WirelessClientLocation from list of servers.*
 ##Classes
 *MapInformation*
